@@ -1,0 +1,10 @@
+*~
+*.bak
+
+*.pyc
+*.pyo
+
+#IntelliJ IDEA files
+.idea/
+*.iml
+
