@@ -20,7 +20,7 @@ S3_CLIENT = boto3.resource('s3')   #creating s3 client
 
 # pylint: disable=C0103
 config_parser = ConfigParser.RawConfigParser()
-config_parser.read('candidates_feed.cfg')
+config_parser.read('anomalies.cfg')
 PACKAGE_SIZE = config_parser.getint('General', 'package-size')
 FILENAME_PATTERN = config_parser.get('General', 'filename-pattern')
 TIMESTAMP_FORMAT = config_parser.get('General', 'timestamp-format')
