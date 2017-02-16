@@ -8,3 +8,5 @@
 .idea/
 *.iml
 
+*.gz
+temp_file.json
